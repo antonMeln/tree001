@@ -124,7 +124,6 @@ int main()
 			cin >> data;
 			if (Tree.find(data)) cout << "true" << endl;
 			else cout << "false" << endl;
-			Tree.print(cout);
 			break;
 
 		case '=':
